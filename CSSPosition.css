@@ -1,0 +1,70 @@
+/* #cc1{
+    height : 500px;
+    width : 500px;
+    border : 2px solid;
+    position: relative;
+    left : 300px;
+    top : 300px;
+} */
+/* section{
+    height : 200vh;
+    width : 500px;
+    border : 2px solid;
+    box-shadow: 0px 0px 10px red;
+    margin :0 auto;
+}
+#article2{
+    height : 300px;
+    width : 300px;
+    border : 2px solid;
+    position: relative;
+    margin : 0 auto;
+}
+div{
+    height : 100px;
+    width : 100px;
+    border : 2px solid;
+    position: absolute;
+    left : 150px;
+    position: fixed;
+    bottom : 40px;
+    left : 900px;
+    background-color: aqua;
+} */
+section{
+    height : 180vh;
+    width : 100vw;
+    border : 2px solid;
+}
+article{
+    height : 100px;
+    width : 100vw;
+    border : 1px solid;
+}
+section article:first-child{
+    background-color: red;
+}
+section article:last-child{
+    background-color: blue;
+    position : sticky;
+    top : 20px;
+}
+
+
+/* the default postion of container is static */
+/* Relative will take the reference of it's current postion  */
+/* Absolute will the reference of it's parent postion */
+/* Sticky is used to make the container fixed after some position and is scrollable upto some points */
+/* fixed means is not scrollable and fixed for the viewport */
+
+/*  margin : 0 auto; for making any container horizonataliy in center */
+/* ! to make that particlar property first priority */
+
+/* CSS mesaurment 
+    1. px = pixel
+    2. %
+    3. vh = viewport height
+    4. vw = viewport width 
+*/
+
+

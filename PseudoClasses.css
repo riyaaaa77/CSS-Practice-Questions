@@ -1,0 +1,32 @@
+a:link{
+    color : green;
+}
+a:active{
+    color : yellow;
+}
+input:focus{
+     border-radius: 200px; 
+     background-color: aqua; 
+     outline-color: darkorange; 
+    /* outline : none; */
+    /* border : none; */
+}
+a:hover{
+    color : red;
+}
+ul li:first-child{
+    color : blue;
+}
+ul li:last-child{
+    color : red;
+}
+ul li:nth-child(even){
+    color :brown;
+}
+ul li:nth-child(3){
+    color :springgreen;
+}
+
+input:checked{
+    height : 100px; 
+}

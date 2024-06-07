@@ -1,0 +1,26 @@
+p{
+    color : red;
+    /* font-size:xx-large; */
+    /* font-size: large;  */
+    /* font-weight:lighter; 
+     font-style: oblique;  */
+    /* font-family: ; */
+    font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+article{
+    height: 500px;
+    width:500px;
+    border : 1px solid;
+    box-shadow: inset 0px 0px 20px blue, 0px 0px 30px red;
+}
+/* To hide container we have two propeties that is visibility and dispaly
+    1. visibility will remove the visibiliyt but container is present there 
+    2. Display will remove the container properly from webpage*/
+
+#cont1{
+/* visibility: hidden; */
+    display:none ; 
+}
+

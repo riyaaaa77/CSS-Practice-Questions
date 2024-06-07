@@ -1,0 +1,34 @@
+article{
+    height : 500px;
+    width : 500px;
+    border : 1px solid;
+    /* border-radius: ; */
+    /* background-color: aqua; */
+    /* background :linear-gradient(  to left bottom, green,red,blue); */
+    /* background: radial-gradient(green, red , blue); */
+    /* background: conic-gradient(
+        pink 0deg 90deg, 
+        aqua 90deg 270deg, 
+        blue 270deg 360deg
+    ); */
+    /* background: conic-gradient(
+        pink 0deg 60deg,
+        green  60deg 120deg,
+        aqua 120deg 240deg,
+        yellow 240deg 300deg,
+        pink 260deg 300deg
+    ); */
+
+    background-image: url("./panda.avif");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; 
+
+    overflow-y: auto; 
+   /* It is used to make the scrollbar invisible  */
+   article ::webkit-scrollbar{
+    display : none;
+   }
+   /* To modify the scroll we have 
+   ----> background scrollbar thumb property */
+}

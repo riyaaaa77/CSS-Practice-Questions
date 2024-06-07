@@ -1,0 +1,70 @@
+*{
+    padding :0px;
+    margin :0px;
+    box-sizing:border-box;
+}
+.mainBody{
+    height : 100vh;
+    width : 100vw;
+    border : 1px solid;
+    background-color: aquamarine;
+}
+
+.mainBody nav{
+    height: 11vh;
+    width: 100vw;
+    border : 1px solid;
+    display :flex;
+    justify-content:space-around ;
+    align-items: center; 
+    
+}
+
+.mainBody nav article{
+    height : 10vh;
+    border : 1px solid;
+}
+
+.logo{
+    width : 200px;
+}
+.NavItems{
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btns{
+    width : 350px;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.NavItems a{
+    height: 100%;
+    font-size: larger;
+    color:darkblue;
+    text-decoration: none;
+    border-bottom : 3px solid transparent;
+    align-content: center;
+}
+.NavItems a:hover{
+    border-bottom : 3px solid blue;
+}
+
+.btn1{
+    width : 100px;
+    height :40px;
+    border-radius: 20px;
+    background-color: blue;
+    color :aliceblue;
+    align-items: center;
+}
+
+/* To make the elements in one drxn we use flex property in parent tag 
+    and the parent tag or container is known as flex box  */
+/* Justify to distribute the horizontal space
+        1.space around - it will give same space around the container
+        2.space btw -  */
+/* 1. Align-items - center
+    2. align - content  */

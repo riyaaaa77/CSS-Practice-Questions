@@ -1,0 +1,42 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing : border-box;
+}
+section{
+    height : 500px;
+    width : 500px;
+    border : 1px solid;
+    display : grid;
+    grid-template-areas:    "cont1 cont2 cont2 cont3"
+                            "cont1 cont4 cont5 cont6"
+                            "cont1 cont7 cont8 cont6";
+    gap:10px;
+}
+section article{
+    border : 1px solid;
+}
+.cont1{
+    grid-area: cont1;
+}
+.cont2{
+    grid-area: cont2;
+}
+.cont3{
+    grid-area: cont3;
+}
+.cont4{
+    grid-area: cont4;
+}
+.cont5{
+    grid-area: cont5;
+}
+.cont6{
+    grid-area: cont6;
+}
+.cont7{
+    grid-area: cont7;
+}
+.cont8{
+    grid-area: cont8;
+}

@@ -1,0 +1,18 @@
+p::first-line{
+    color : red ;
+}
+p::first-letter{
+    color : green;
+}
+p::before{
+    content : "🤗🤗🤗";
+}
+p::after{
+    content : "🤡🤡🤡";
+}
+ul::marker{
+    color :blue;
+}
+p::selection{
+    color :chartreuse;
+}

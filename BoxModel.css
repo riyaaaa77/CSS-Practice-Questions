@@ -1,0 +1,40 @@
+/* the height and width we will give to the container is known as content box
+    space btw content box and the border is padding
+    space btw padding and margin is border
+    outer space is known as margin */
+
+/* Box Model :- 1. A css box model is essentially a box that wraps aroud every html element
+                2. All tags from html will follow the box model */
+
+article{
+    height :300px;
+    width : 300px;
+    border : 10px solid;
+    /* padding : 50px;  */
+    /* padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 50px; */
+    padding : 20px 40px 30px 40px;o
+    /* To restrict the size of the box that is incresing... */
+    box-sizing:border-box;
+    margin : 50px;
+}
+
+/* Types of padding/margin we can do 
+    1. Top
+    2. Right 
+    3. Bottom
+    4. Left */
+#cont2{
+    /* margin : 0px 50px 2px 1px; */
+    margin : 0px auto; 
+    /* To make in centre */
+}
+
+
+/* TASK - in a card create 12 cards
+            1. is countryflag in center
+            2. country name in center
+            3. currency in center
+ */

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height : 600px;
+    width: 600px;
+    border : 1px solid;
+    display : grid;
+   
+}
+section div{
+    border : 1px solid;
+}
+.cont1{
+    grid-area: cont1;
+}
+.cont2{
+    grid-area: cont2;
+}
+.cont3{
+    grid-area: cont3;
+}
+.cont4{
+    grid-area: cont4;
+}
+.cont5{
+    grid-area: cont5;
+}
+.cont6{
+    grid-area: cont6;
+}
+.cont7{
+    grid-area: cont7;
+}
+.cont8{
+    grid-area: cont8;
+}
+.cont9{
+    grid-area: cont9;
+}
+.cont10{
+    grid-area: cont10;
+}
+.cont11{
+    grid-area: cont11;
+}
+.cont12{
+    grid-area: cont12;
+}
+.cont3{
+    grid-area: cont13;
+}
+.cont14{
+    grid-area: cont4;
+}
+.cont15{
+    grid-area: cont15;
+}
+.cont16{
+    grid-area: cont16;
+}
+.cont17{
+    grid-area: cont17;
+}
+.cont18{
+    grid-area: cont18;
+}
+.cont19{
+    grid-area: cont19;
+}
+.cont20{
+    grid-area: cont20;
+}
+.cont21{
+    grid-area: cont21;
+}
+.cont22{
+    grid-area: cont22;
+}
+.cont23{
+    grid-area: cont23;
+} 

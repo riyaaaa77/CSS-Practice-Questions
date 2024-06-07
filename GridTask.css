@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height : 500px;
+    width: 500px;
+    display: grid;
+    border : 1px solid;
+    grid-template-areas: "cont1 cont1"
+                         "cont1 cont1"
+                         "cont2 cont3"
+                         "cont2 cont3"
+                         "cont2 cont4"
+                         "cont2 cont4"
+                         "cont5 cont5"
+                         "cont5 cont5"
+                         "cont5 cont5"
+                         "cont6 cont6";
+    gap : 10px;
+}
+section div{
+    border : 1px solid;
+    /* background-color: blueviolet; */
+}
+.cont1{
+    grid-area : cont1;
+}
+.cont2{
+    grid-area : cont2;
+}
+.cont3{
+    grid-area : cont3;
+}
+.cont4{
+    grid-area : cont4;
+}
+.cont5{
+    grid-area : cont5;
+}
+.cont6{
+    grid-area : cont6;
+}
